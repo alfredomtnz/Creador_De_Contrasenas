@@ -1,0 +1,118 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Título */
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Etiquetas y entradas */
+label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+input[type="number"], input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Botón */
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #764ba2;
+}
+
+/* Resultado */
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    word-break: break-all;
+}
+
+/* Estilos del medidor de fuerza */
+.strength-meter {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 8px;
+    height: 10px;
+    margin-top: 15px;
+}
+
+#strength-bar {
+    height: 100%;
+    width: 0;
+    border-radius: 8px;
+    transition: width 0.3s;
+}
+
+#strength-text {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Colores de los niveles de fuerza */
+.weak {
+    background-color: #e74c3c;
+}
+
+.medium {
+    background-color: #f39c12;
+}
+
+.strong {
+    background-color: #2ecc71;
+}
